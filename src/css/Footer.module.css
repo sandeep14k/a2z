@@ -1,0 +1,162 @@
+/* Footer.css */
+.footer {
+    background-color: #1c175a;
+    color: #fff;
+    padding: 20px 0;
+    font-family: sans-serif;
+  }
+  .maindiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  
+  .footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footerSection {
+    flex: 1 1 200px;
+    margin: 10px;
+  }
+  .brandSolution {
+    flex: 1 1 200px;
+    margin: 10px;
+  }
+  
+  .usefulLinks {
+    flex: 1 1 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 30px;
+  }
+  
+  .contactUs {
+    flex: 1 1 200px;
+  }
+  
+  .H4 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .bsh {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  .P1 {
+    font-size: 0.9rem;
+    line-height: 20px;
+    margin: 5px 0;
+    margin-top: 30px;
+  }
+  .bdp {
+    font-size: 0.9rem;
+    line-height: 20px;
+    margin: 5px 0;
+    margin-top: 30px;
+  }
+  
+  .footerSection input {
+    padding: 5px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .footerSection button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .footerSection button:hover {
+    background-color: #777;
+  }
+  
+  .iconContainer {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  
+  .icon {
+    height: 25px;
+    width: 25px;
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    transition: transform 1s ease-in-out;
+    cursor: pointer;
+  }
+  .icon:hover {
+    transform: rotate(360deg);
+  }
+  
+  .listContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+    align-items: start;
+  }
+  .list {
+    cursor: pointer;
+    font-size: 20px;
+    all: unset;
+  }
+  
+  .list a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .list a:hover {
+    color: red;
+  }
+  
+  .maindiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .subdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: color 0.3s ease;
+  }
+  .subdiv:hover {
+    color: red;
+  }
+  .subsubdiv {
+    line-height: 7px;
+  }
+  
+  @media (max-width: 600px) {
+    .footerContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footerSection {
+      flex: 1 1 100%;
+      text-align: center;
+    }
+  }

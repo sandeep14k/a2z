@@ -1,0 +1,124 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #ec167f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+   height: 32px;
+
+  }
+  
+  .navbar.hidden {
+    transform: translateY(-100%);
+  }
+  
+  .navbar.visible {
+    transform: translateY(0);
+  }
+  
+  .navbar-content {
+    margin-left: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 10px;
+    line-height: 1.7em;
+    font-weight: 400;
+  }
+  
+  .navbar-content p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    margin-right: 10%;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .icon:hover {
+    color: #f39c12;
+  }
+  /* Default navbar styles */
+.navbarBottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease; /* Smooth transition for height change */
+  position: fixed;
+  width: 100vw;
+  z-index: 10;
+  top: 32px;
+}
+
+.navbarBottom.scrolled {
+  padding: 0px;
+  top:0px; /* Reduce padding when scrolled */
+}
+
+.logo{
+  margin-left: 10%;
+}
+.logo img {
+  height: 100; 
+  width: 100px;
+  margin-left: 20%;/* Adjust the height of the logo */
+}
+.navbarBottom.scrolled .logo img {
+  height: 80px; /* Adjust the height of the logo */
+  width: 80px;
+  margin-left: 20%;/* Adjust the height of the logo */
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+  color: black;
+  margin-right: 10%;
+}
+/* For your navigation links */
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  position: relative; /* Needed for the pseudo-element */
+  display: inline-block; 
+  padding-bottom: 10px;/* Ensures the width of the link is respected */
+}
+
+/* Apply gradient underline and center animation on hover */
+.nav-links li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%; /* Start with full width */
+  height: 3px; /* Height of the underline */
+  background: linear-gradient(to left, rgba(247,0,104) 0%, rgba(68,16,102,1) 100%);
+  transform: translateX(-50%) scaleX(0); /* Start scaled to 0 */
+  transform-origin: center; /* Ensures scaling happens from the center */
+  transition: transform 0.4s ease; /* Smooth animation */
+}
+
+/* On hover, expand the underline from the center */
+.nav-links li a:hover::after {
+  transform: translateX(-50%) scaleX(1); /* Scale from the center */
+}
