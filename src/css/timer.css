@@ -34,3 +34,15 @@
     font-weight: normal;
     color: white;
   }
+ @media (max-width:576px){
+  .timer-container{
+    width: 100%;
+    margin-left: 0;
+  }
+  .time-value{
+    font-size: 40px;
+  }
+  .timer-label{
+    gap:25px;
+  }
+ }

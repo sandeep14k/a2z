@@ -7,19 +7,19 @@ const Services = () => {
       image: 's1.jpg', // Replace with actual image URL
       title: 'Commercial Events & Private Events',
       description: 'Entertainment events',
-      website: 'www.brandsolution.in',
+      website: 'a2zmarketing.co.in',
     },
     {
       image: 's2.jpg', // Replace with actual image URL
       title: 'Branding and Wall Painting Services',
       description: 'Well-Equipped used',
-      website: 'www.brandsolution.in',
+      website: 'a2zmarketing.co.in',
     },
     {
       image: 's3.jpg', // Replace with actual image URL
       title: 'Best Marketing Programs Services',
       description: 'Marketing approach',
-      website: 'www.brandsolution.in',
+      website: 'a2zmarketing.co.in',
     },
   ];
 

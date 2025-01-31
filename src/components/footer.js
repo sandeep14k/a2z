@@ -17,9 +17,9 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.footerContainer}>
         <div className={styles.brandSolution}>
-          <h4 className={styles.bsh}>Brand Solution</h4>
+          <h4 className={styles.bsh}>A2Z Marketing</h4>
           <p className={styles.bdp}>
-            Brand Solution is an Exclusive Event Management Service Provider
+            A2Z Marketing is an Exclusive Event Management Service Provider
             Organizing Corporate Events, Marketing Programs, Special Corporate
             Hospitality Events, Commercial Events & Private Events.
           </p>
@@ -57,41 +57,33 @@ const Footer = () => {
           <h4 className={styles.H4}>Contact Us</h4>
           <div className={styles.maindiv}>
             <div className={styles.subdiv}>
-              <div>
-                <MdAccessTimeFilled size={30} />
-              </div>
-              <div>
-                <h4>Mon - Sat: 09:00 - 18:00</h4>
-              </div>
+              <MdAccessTimeFilled size={30} />
+              <h4>Mon - Sat: 09:00 - 18:00</h4>
             </div>
             <div className={styles.subdiv}>
-              <div>
-                <FiPhoneCall size={30} />
-              </div>
-              <div className={styles.subsubdiv}>
-                <p>+(91)- 9999688445</p>
-                <p>+(91)-(11)-44725827</p>
-              </div>
+              <FiPhoneCall size={30} />
+              <p>+(91)- 9654328013</p>
             </div>
             <div className={styles.subdiv}>
-              <div>
-                <SiMinutemailer size={30} />
-              </div>
-              <div className={styles.subsubdiv}>
-                <p>dinesh@brandsolution.in</p>
-                <p>info@brandsolution.in</p>
-              </div>
+              <SiMinutemailer size={30} />
+              <p>pankaj@a2zmarketing.co.in</p>
             </div>
             <div className={styles.subdiv}>
-              <div>
-                <FaGlobeAmericas size={30} />
-              </div>
-              <div>
-                <p>
-                  Office No:-213,214, 2nd floor, HarshaComlex, Gazipur, Delhi,
-                  110096
-                </p>
-              </div>
+              <FaGlobeAmericas size={30} />
+              <p>Office:- FF163, DEVIKA CHAMBER, RDC, GHAZIABAD</p>
+            </div>
+            {/* Google Maps Embed */}
+            <div className={styles.mapContainer}>
+              <iframe
+                title="A2Z Marketing Location"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3500.5656225704647!2d77.4408333!3d28.6727222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDQwJzIxLjgiTiA3N8KwMjYnMjcuMCJF!5e0!3m2!1sen!2sin!4v1738340635093!5m2!1sen!2sin"
+                width="100%"
+                height="200"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </div>
         </div>

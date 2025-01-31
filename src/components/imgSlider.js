@@ -18,7 +18,7 @@ const ImageSlider = () => {
       <Slider {...settings}>
         {/* Image and Text Slide 1 */}
         <div className="slide">
-  <img src="img-s1.jpg" alt="Slider Image 1" className="slider-image" />
+  <img src="1.jpg" alt="Slider 1" className="slider-image"/>
   <div className="slider-text">
     <p className="text-line1">Since Jan 20, 2000</p>
     <h2 className="text-line2">Exclusive Event Management Service</h2>
@@ -42,7 +42,7 @@ const ImageSlider = () => {
 
         {/* Image and Text Slide 2 */}
         <div className="slide">
-          <img src="img-s2.jpg" alt="Slider Image 2" className="slider-image" />
+          <img src="2.jpg" alt="Slider 2" className="slider-image" />
           <div className="slider-text">
             <p className="text-line1">Since Jan 20, 2000</p>
             <h2 className="text-line2">Exclusive Event Management Service</h2>
